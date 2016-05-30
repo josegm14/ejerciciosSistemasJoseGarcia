@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ventana principal</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+  <style>
+    .navbar {
+      margin-bottom: 0px;
+    }
+
+    i:hover {
+      color: forestgreen;
+    }
+
+    .carousel-caption {
+      text-align: left;
+    }
+    /* definir el tamaño del carousel, exacto, importante la proporcion de las imagenes */
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      height: 400px;
+      margin: auto;
+    }
+
+     
+    #myCarousel{
+           
+            height: auto;
+      }
+
+  </style>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+            <!-- Marca y titulo se agrupan para que se 'vea' mejor en dispositivos moviles -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
+                    <!--el sr-only para lectores de páginas -->
+                    <span class="sr-only">Toggle navigation</span>
+                    <!-- las rallitas del menu -->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand " href="#">
+                    <i class="fa fa-life-ring"></i>
+
+                </a>
+
+            </div>
+
+            <!-- Aqui ponemos todos los links, forms y elementos expandibles -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+
+
+                
+                
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="http://www.nba.com/">NBA</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Conferencias <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="confeste.html">Este </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="confoeste.html">Oeste</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+           
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+                <img src="http://2.bp.blogspot.com/-e_2oznVmmcw/VnvmcUIFOtI/AAAAAAAACyA/7JAFB4gp_uk/s1600/kobe-bryant-4-50-game-streak.jpg" alt="turtle">
+                <div class="carousel-caption">
+                   
+                    
+                </div>
+            </div>
+            <div class="item ">
+                <img src="https://content.nike.com/content/dam/one-nike/en_us/Jordan/FA15/FlightFlex/CDP-Jordan-FlightFlex-0815-07-FST07-1600x400-traininglogo.png.transform/full-screen/image.png" alt="tortue">
+                <div class="carousel-caption" >
+                   
+                    
+                </div>
+            </div>
+            <div class="item ">
+                <img src="http://basketmontesion.com/wp-content/uploads/2014/10/cropped-cabecera3.jpg" alt="tortue">
+                <div class="carousel-caption" style="text-align: right">
+                    
+                    
+                </div>
+            </div>
+            
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    
+<div class="jumbotron">
+    <div class="container">
+      <h1 class="page-header">Conferencia este</h1>
+          <img src="http://es.global.nba.com/media/img/eastern_logo.png"/>
+      <p>La Conferencia Este en la NBA está compuesta por quince equipos y organizada en tres divisiones de cinco equipos cada una.
+
+Los líderes de cada división se clasifican matemáticamente para disputar los playoffs, mientras que los cinco equipos restantes serán los que posean mejor balance victorias-derrotas.
+          </p>
+
+<p>Esta formada por:</p>
+
+<p>Boston Celtics,
+Brooklyn Nets,
+New York Knicks,
+Philadelphia 76ers,
+Toronto Raptors,
+
+
+
+Atlanta Hawks,
+Charlotte Hornets,
+Miami Heat,
+Orlando Magic,
+Washington Wizards,
+
+
+
+Chicago Bulls,
+Cleveland Cavaliers
+Detroit Pistons,
+Indiana Pacers,
+Milwaukee Bucks.</p>
+     
+        
+
+        
+    </div>
+  </div>
+    <div class="jumbotron">
+    <div class="container">
+      <h1 class="page-header">Conferencia oeste</h1>
+        <img src="http://es.global.nba.com/media/img/western_logo.png"/>
+      <p>La Conferencia Oeste en la NBA está compuesta por 15 equipos y organizada en 3 divisiones de 5 equipos cada una.
+
+Los líderes de cada división se clasifican matemáticamente para disputar los playoffs, mientras que los 5 equipos restantes serán los que posean mejor balance victorias-derrotas. En total, por cada conferencia se clasifican 8 equipos.</p>
+
+          <p> Esta formada por: </p>
+
+
+ <p>Denver Nuggets,
+Minnesota Timberwolves,
+Oklahoma City Thunder,
+Portland Trail Blazers,
+Utah Jazz,
+
+
+Dallas Mavericks,
+Houston Rockets,
+Memphis Grizzlies,
+New Orleans Pelicans,
+San Antonio Spurs,
+
+
+Golden State Warriors,
+Los Angeles Clippers,
+Los Angeles Lakers,
+Phoenix Suns,
+Sacramento Kings.</p>
+     
+        
+
+        
+    </div>
+  </div>
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="page-header">NBA</h1>
+      <p>La National Basketball Association o NBA (Asociación Nacional de Baloncesto) es la principal liga estadounidense de baloncesto profesional. En el año 1946 cuando la guerra recién terminaba, un grupo de hombres, en su mayoría propietarios de algunas salas deportivas de diferentes ciudades americanas, se reúnen en el Madison Square Garden de Nueva York, con el fin de buscar alternativas para llenar sus salas con algo más que hockey y boxeo, los cuáles atraían mucho público pero no alcanzaba para llenar los estadios durante un año entero.</p>
+      <p><a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">¿Te ha gustado la página?</a>
+        
+
+        </p>
+    </div>
+  </div>
+
+ <!-- myModal es al que llamamos desde el data-target anterior -->
+    <div class="modal fade" id="myModal">
+        <!-- un poco de estilos, si no ocuparía toda la pantalla en este caso-->
+        <div class="modal-dialog">
+           <!-- el contenido-->
+            <div class="modal-content">
+               <!-- cabecera del modal (titulo y la x para cerrar, el &times;-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Valoración</h4>
+                </div>
+                <!-- cuerpo del modal-->
+                <div class="modal-body">
+                   <!-- podemos poner lo que conocemos de bootstrap
+                   si ponemos un container en lugar de un container-fluid no se vera bien,
+                   ocuparía demasiado-->
+                    <div class="container-fluid">
+                       <!-- un form clasico de bootstrap-->
+                        <h2>Formulario</h2>
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="nombre">Nombre:</label>
+                                <input type="nombre" class="form-control" id="nombre" placeholder="Introduce tu nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="apellidos">Apellidos:</label>
+                                <input type="apellidos" class="form-control" id="apellidos" placeholder="Introduce tus apellidos">
+                            </div>
+                            <div class="checkbox">
+                                <label for="valoracion">¿Te ha gustado la página?</label>
+                                <label>
+                                    <input type="checkbox">Sí
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-default">Enviar</button>
+                        </form>
+                    </div>
+                    <br>
+                    <!-- y si queremos podemos añadir el contenido que nos apetezca -->
+                  
+                    
+                </div>
+                <!-- el pie de página del footer-->
+                <div class="modal-footer">
+                   <!-- con el data-dismiss="modal" decimos que se cierre-->
+                    <button type="button" class="btn btn-default" data-dismiss="modal"> 
+                    Cerrar
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                        Enviar
+                    </button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+
+  <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+  <script src="js/view_source.min.js"></script>
+</body>
+
+</html>
